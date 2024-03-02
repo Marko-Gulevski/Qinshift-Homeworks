@@ -20,7 +20,9 @@ Console.Write("Select the fourth number: ");
 string fourNum = Console.ReadLine();
 bool parsedFour = int.TryParse(fourNum, out int numberFour);
 
-Console.WriteLine("The average of the four inputed numbers is: " + ((numberOne + numberTwo + numberThree + numberFour) / 4));
+int totalAverage = (numberOne + numberTwo + numberThree + numberFour) / 4;
+
+Console.WriteLine("The average of the four inputed numbers is: " + totalAverage);
 
 #endregion
 
