@@ -1,5 +1,4 @@
 ﻿#region Email Validation
-
 Console.Write("Enter e-mail: ");
 string inputedEmail = Console.ReadLine();
 
