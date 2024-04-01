@@ -2,7 +2,6 @@
 using ClassLibrary.Domain.Models;
 
 #region Task 01
-
 Manager kylo = new Manager("Kylo", "Ren", 700);
 Manager skye = new Manager("Skye", "Blue", 500);
 Contractor joyce = new Contractor("Joyce", "Maxwell", 40, 150, kylo);
