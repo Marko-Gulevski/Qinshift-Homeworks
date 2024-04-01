@@ -1,5 +1,4 @@
 ﻿using ClassLibrary.Models;
-
 #region Think you got what it takes to be the Downhill Champ?
 // Car Objects
 Car[] cars =
